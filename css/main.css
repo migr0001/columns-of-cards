@@ -8,7 +8,10 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  width: 25%;
+  margin: 0;
 }
 
 h1 {
@@ -30,7 +33,8 @@ h2 {
   margin: 0;
 }
 
-i {
+h3 {
+  font-style: italic;
   font-size: .875rem;
 }
 
@@ -39,28 +43,23 @@ p {
   font-size: .875rem;
 }
 
-.main-wrapper {
-  background-color: #999;
-}
-
 .quest {
-  background-color: #f2f2f2;
-  padding: .75rem;
-  margin: 0 0 1.5rem;
-}
-
-.dinasaur-knights {
   background-color: #e2e2e2;
   padding: .75rem;
 }
 
-.black-dragon {
+.dinasaur-knights {
   background-color: #ccc;
   padding: .75rem;
 }
 
-.light-speed {
+.black-dragon {
   background-color: #aaa;
+  padding: .75rem;
+}
+
+.light-speed {
+  background-color: #999;
   padding: .75rem;
 }
 
