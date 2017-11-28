@@ -10,8 +10,11 @@ html {
 body {
   background-color: #f2f2f2;
   font-family: "Open Sans", sans-serif;
-  width: 25%;
   margin: 0;
+}
+
+section {
+  text-align: center;
 }
 
 h1 {
@@ -25,22 +28,26 @@ img {
 
 div {
   font-size: .875rem;
+  display: inline-block;
   float: left;
-  overflow: hidden;
+  width: 25%;
 }
 
 h2 {
   margin: 0;
+  text-align: left;
 }
 
 h3 {
   font-style: italic;
   font-size: .875rem;
+  text-align: left;
 }
 
 p {
   margin: 0 auto 1.5rem;
   font-size: .875rem;
+  text-align: left;
 }
 
 .quest {
@@ -63,10 +70,14 @@ p {
   padding: .75rem;
 }
 
-a {
+.btn {
   padding: .75rem;
   background-color: #333;
   color: white;
   border-radius: 8px;
   text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ccc;
 }
